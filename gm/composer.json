@@ -1,0 +1,27 @@
+{
+    "name": "gemorroj/gmanager",
+    "description": "php file manager and more",
+    "license": "GPL-3.0-or-later",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gemorroj"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "lib/"
+        ]
+    },
+    "require": {
+        "php": "^5.3.9|^7.0",
+        "ext-zip": "*",
+        "pear/archive_tar": "^1.4",
+        "symfony/polyfill-mbstring": "^1.8",
+        "symfony/process": "^2.8|^3.0|^4.0",
+        "gemorroj/syntax": "^2.1|^3.0"
+    },
+    "suggest": {
+        "ext-rar": "Support RAR archives"
+    }
+}
